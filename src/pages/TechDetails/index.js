@@ -16,8 +16,8 @@ export default function TechDetails() {
 
         <WebView
             style={{ flex: 1 }}
-            //source={{ uri: `https://www.google.com/search?q=${tech.id}` }}
-            source={{ uri: `https://livrariayadah.com.br` }}
+            source={{ uri: `https://www.google.com/search?q=${tech.id}` }}
+            //source={{ uri: `https://livrariayadah.com.br` }}
         />
     )
 }
